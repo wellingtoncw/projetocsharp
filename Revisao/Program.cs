@@ -6,14 +6,7 @@ namespace Revisao
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe a opção desejada: ");
-            Console.WriteLine("1- Inserir novo aluno;");
-            Console.WriteLine("2- Listar alunos;");
-            Console.WriteLine("3- Calcular média geral;");
-            Console.WriteLine("X- Sair.");
-            Console.WriteLine();
-
-            string opcaoUsuario = Console.ReadLine();
+            string opcaoUsuario = ObterOpcaoUsuario();
 
             // ToUpper transforma minúsculo em maiúsculo
             while (opcaoUsuario.ToUpper() != "X")
@@ -30,17 +23,26 @@ namespace Revisao
                         //TODO: Calcular média geral
                         break;
                     default:
-                        throw new ArgumentOutOfRangeException("Escolha a opção 1, 2 ou 3.");
+                        throw new ArgumentOutOfRangeException("Escolha entre as opções 1, 2 ou 3.");
                 }
 
-                Console.WriteLine("Informe a opção desejada: ");
-                Console.WriteLine("1- Inserir novo aluno;");
-                Console.WriteLine("2- Listar alunos;");
-                Console.WriteLine("3- Calcular média geral;");
-                Console.WriteLine("X- Sair.");
-                Console.WriteLine();
-                opcaoUsuario = Console.ReadLine();
+
+                opcaoUsuario = ObterOpcaoUsuario();
             }
+        }
+
+        private static string ObterOpcaoUsuario()
+        {
+            Console.WriteLine("Informe a opção desejada: ");
+            Console.WriteLine("1- Inserir novo aluno;");
+            Console.WriteLine("2- Listar alunos;");
+            Console.WriteLine("3- Calcular média geral;");
+            Console.WriteLine("X- Sair.");
+            Console.WriteLine();
+
+            string opcaoUsuario = Console.ReadLine();
+            Console.WriteLine();
+            return opcaoUsuario;
         }
     }
 }
