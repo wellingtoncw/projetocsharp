@@ -61,7 +61,30 @@ namespace Revisao
                         }
 
                         var mediaGeral = notaTotal / numeroAlunos;
-                        Console.WriteLine($"A média geral da turma é de: {mediaGeral}");
+                        Conceito conceitoGeral;
+
+                        if (mediaGeral < 2)
+                        {
+                            conceitoGeral = Conceito.E;
+                        }
+                        else if (mediaGeral < 4)
+                        {
+                            conceitoGeral = Conceito.D;
+                        }
+                        else if (mediaGeral < 6)
+                        {
+                            conceitoGeral = Conceito.C;
+                        }
+                        else if (mediaGeral < 8)
+                        {
+                            conceitoGeral = Conceito.B;
+                        }
+                        else
+                        {
+                            conceitoGeral = Conceito.A;
+                        }
+
+                        Console.WriteLine($"A média geral da turma é de: {mediaGeral} e o conceito é: {conceitoGeral}");
                         break;
 
                     default:
