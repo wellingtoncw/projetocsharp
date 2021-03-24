@@ -8,6 +8,7 @@ namespace Revisao
         {
 
             Aluno[] alunos = new Aluno[5]; // cria array de alunos com tamanho 5
+            var indiceAluno = 0;
             string opcaoUsuario = ObterOpcaoUsuario();
 
             // ToUpper transforma minúsculo em maiúsculo
@@ -29,6 +30,9 @@ namespace Revisao
                         {
                             throw new ArgumentException("O valor da nota deve ser um número decimal!");
                         }
+
+                        alunos[indiceAluno] = aluno;
+                        indiceAluno++;
 
                         break;
                     case "2":
