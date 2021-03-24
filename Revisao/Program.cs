@@ -21,8 +21,15 @@ namespace Revisao
                         aluno.Nome = Console.ReadLine();
 
                         Console.WriteLine("Informe a nota do aluno: ");
-                        var nota = decimal.Parse(Console.ReadLine()); // converte a string do ReadLine para decimal
-                        aluno.Nota = nota;
+                        if (decimal.TryParse(Console.ReadLine(), out decimal nota)) // tenta converter a string do ReadLine em decimal
+                        {
+                            aluno.Nota = nota;
+                        }
+                        else
+                        {
+                            throw new ArgumentException("O valor da nota deve ser um número decimal!");
+                        }
+
                         break;
                     case "2":
                         //TODO: Listar aluno
