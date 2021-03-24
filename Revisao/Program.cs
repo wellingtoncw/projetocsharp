@@ -48,13 +48,25 @@ namespace Revisao
                         break;
 
                     case "3":
-                        //TODO: Calcular média geral
+                        decimal notaTotal = 0;
+                        var numeroAlunos = 0;
+
+                        for (int i = 0; i < alunos.Length; i++)
+                        {
+                            if (!string.IsNullOrEmpty(alunos[i].Nome)) //para que seja calculado apenas os alunos inseridos no Array
+                            {
+                                notaTotal = notaTotal + alunos[i].Nota; // soma a nota em cada indice do Array
+                                numeroAlunos++; // incrementa o numero de alunos
+                            }
+                        }
+
+                        var mediaGeral = notaTotal / numeroAlunos;
+                        Console.WriteLine($"A média geral da turma é de: {mediaGeral}");
                         break;
 
                     default:
                         throw new ArgumentOutOfRangeException("Escolha entre as opções 1, 2 ou 3.");
                 }
-
 
                 opcaoUsuario = ObterOpcaoUsuario();
             }
