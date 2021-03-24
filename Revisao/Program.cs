@@ -6,6 +6,8 @@ namespace Revisao
     {
         static void Main(string[] args)
         {
+
+            Aluno[] alunos = new Aluno[5]; // cria array de alunos com tamanho 5
             string opcaoUsuario = ObterOpcaoUsuario();
 
             // ToUpper transforma minúsculo em maiúsculo
@@ -14,7 +16,13 @@ namespace Revisao
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        //TODO: Adicionar aluno
+                        Console.WriteLine("Informe o nome do aluno: ");
+                        Aluno aluno = new Aluno;
+                        aluno.Nome = Console.ReadLine();
+
+                        Console.WriteLine("Informe a nota do aluno: ");
+                        var nota = decimal.Parse(Console.ReadLine()); // converte a string do ReadLine para decimal
+                        aluno.Nota = nota;
                         break;
                     case "2":
                         //TODO: Listar aluno
