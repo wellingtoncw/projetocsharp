@@ -1,0 +1,16 @@
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.exe
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.deps.json
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.json
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.dev.json
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.dll
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\ref\Revisao.dll
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\bin\Debug\net5.0\Revisao.pdb
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.csprojAssemblyReference.cache
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfoInputs.cache
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfo.cs
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.csproj.CoreCompileInputs.cache
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.dll
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\ref\Revisao.dll
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.pdb
+C:\Users\Wellington Nogueira\Documents\GitHub\projetocsharp\Revisao\obj\Debug\net5.0\Revisao.genruntimeconfig.cache
